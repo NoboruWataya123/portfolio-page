@@ -1,0 +1,68 @@
+.progresBarline {
+  display: inline-block;
+  height: 9px;
+  width: 40%;
+  border-radius: 12px;
+  margin-left: 2rem;
+  background: #c4c4c4;
+}
+.progresBarlinefill1 {
+  width: 10%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill2 {
+  width: 20%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill3 {
+  width: 30%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill4 {
+  width: 40%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill5 {
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill6 {
+  width: 60%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill7 {
+  width: 70%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill8 {
+  width: 80%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill9 {
+  width: 90%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}
+.progresBarlinefill10 {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: #2f80ed;
+}

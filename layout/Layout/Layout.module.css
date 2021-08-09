@@ -1,0 +1,48 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 100px 1fr 1fr;
+  min-height: 100vh;
+  margin: 4rem;
+  gap: 30px;
+  grid-template-areas:
+    "header progressBar progressBar"
+    "header projects projects"
+    "sidebar projects projects"
+    "hobbies blog blog";
+}
+
+.header {
+  grid-area: header;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.projects {
+  grid-area: projects;
+}
+.progressBar {
+  grid-area: progressBar;
+}
+.hobbies {
+  grid-area: hobbies;
+}
+.blog {
+  grid-area: blog;
+}
+
+@media (max-width: 765px) {
+  .wrapper {
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "header"
+      "progressBar"
+      "sidebar"
+      "projects"
+      "projects"
+      "hobbies"
+      "blog";
+  }
+}

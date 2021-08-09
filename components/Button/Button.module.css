@@ -1,0 +1,38 @@
+.button_primary{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--white);
+    background-color: var(--primary);
+    transition: all 0.2s;
+}
+.button_primary:hover{
+    background-color: var(--primary-hover);
+}
+
+
+.button_ghost{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--black);
+    background: none;
+    transition: all 0.2s;
+    border: 1px solid var(--grey-light);
+}
+
+.button_ghost:hover{
+    background-color: var(--primary);
+    color: white;
+}
